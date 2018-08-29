@@ -1,0 +1,17 @@
+<osm-script output="json">
+    <!-- search the area of the Dolmites -->
+    <query type="area">
+        <has-kv k="place" v="region"/>
+        <has-kv k="region:type" v="mountain_area"/>
+        <has-kv k="name:en" v="Dolomites"/>
+    </query>
+    <print mode="body" order="quadtile"/>
+    <!-- get all peaks in the area -->
+    <query type="node">
+        <area-query/>
+        <has-kv k="natural" v="peak"/>
+        <has-kv k="name"/>
+        <has-kv k="ele" regv="[3-4]{1}[0-9]{3}"/>
+    </query>
+    <print mode="body" order="quadtile"/>
+</osm-script>
