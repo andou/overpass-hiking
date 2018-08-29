@@ -18,6 +18,7 @@
   "homepage": "https://github.com/andou/overpass-hiking#readme",
   "dependencies": {
     "geojsonio-cli": "^0.2.3",
+    "query-overpass": "^1.5.3",
     "wellknown": "^0.5.0"
   }
 }
