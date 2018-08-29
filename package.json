@@ -1,0 +1,23 @@
+{
+  "name": "overpass-hiking",
+  "version": "1.0.0",
+  "description": "GeoData Manipulation Toolkit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andou/overpass-hiking.git"
+  },
+  "author": "antonio.pastorino@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andou/overpass-hiking/issues"
+  },
+  "homepage": "https://github.com/andou/overpass-hiking#readme",
+  "dependencies": {
+    "geojsonio-cli": "^0.2.3",
+    "wellknown": "^0.5.0"
+  }
+}
