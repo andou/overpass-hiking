@@ -1,7 +1,0 @@
-<osm-script output="json">
-    <query type="area">
-        <has-kv k="admin_level" v="2"/>
-        <has-kv k="ISO3166-1" regv="^IT"/>
-    </query>
-    <print mode="meta" order="quadtile"/>
-</osm-script>
